@@ -148,3 +148,7 @@ sys	0m3,458s
 real	2m10,417s
 user	2m21,574s
 sys	0m3,448s
+
+------
+
+time java -Xmx2G -jar /Users/stefan/apps/ilivalidator-1.11.6/ilivalidator-1.11.6.jar --allObjectsAccessible OeREBKRM_V1_1_Gesetze_20180501.xml ch.so.sk.gesetze.xtf ch.so.arp.nutzungsplanung.oereb.xtf

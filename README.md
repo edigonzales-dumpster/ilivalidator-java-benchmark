@@ -80,6 +80,12 @@ sys	0m9,913s
 
 ```
 time java -jar /Users/stefan/apps/ilivalidator-1.11.6/ilivalidator-1.11.6.jar --allObjectsAccessible OeREBKRM_V1_1_Gesetze_20180501.xml ch.so.sk.gesetze.xtf ch.so.arp.nutzungsplanung.oereb.xtf
+
+
+
+time java -jar ilivalidator-1.11.7-SNAPSHOT-all.jar --allObjectsAccessible OeREBKRM_V1_1_Gesetze_20180501.xml ch.so.sk.gesetze.xtf ch.so.arp.nutzungsplanung.oereb.xtf
+time java -Xmx20G -jar ilivalidator-1.11.7-SNAPSHOT-all.jar --allObjectsAccessible OeREBKRM_V1_1_Gesetze_20180501.xml ch.so.sk.gesetze.xtf ch.so.arp.nutzungsplanung.oereb.xtf
+
 ```
 
 ```

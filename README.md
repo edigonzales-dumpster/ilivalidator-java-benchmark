@@ -89,6 +89,14 @@ time java -Xmx20G -jar ilivalidator-1.11.7-SNAPSHOT-all.jar --allObjectsAccessib
 
 time java -XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGC -jar ilivalidator-1.11.7-SNAPSHOT-all.jar --allObjectsAccessible OeREBKRM_V1_1_Gesetze_20180501.xml ch.so.sk.gesetze.xtf ch.so.arp.nutzungsplanung.oereb.xtf
 
+time java -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:gc-java.log -jar ilivalidator-1.11.7-SNAPSHOT-all.jar --allObjectsAccessible OeREBKRM_V1_1_Gesetze_20180501.xml ch.so.sk.gesetze.xtf ch.so.arp.nutzungsplanung.oereb.xtf
+
+
+time ./ilivalidator  -Xmn5m -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+PrintHeapShape  -Xloggc:gc-native.log --allObjectsAccessible OeREBKRM_V1_1_Gesetze_20180501.xml ch.so.sk.gesetze.xtf ch.so.arp.nutzungsplanung.oereb.xtf
+
+
+
+
 
 ```
 
